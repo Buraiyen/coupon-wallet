@@ -3,6 +3,7 @@
     class="w-[750px] text-white border-2 border-solid rounded border-red-500 grid grid-cols-3"
   >
     <div class="bg-rose-400 flex items-center justify-center col-span-1">
+      <font-awesome-icon :icon="['fas', 'gift']" size="2xl" />
       <h3 class="text-7xl">30</h3>
       <div class="grid grid-rows-2">
         <p class="text-5xl">%</p>
