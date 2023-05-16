@@ -11,39 +11,46 @@
     </div>
     <div class="bg-rose-900 col-span-2 text-center">
       <div class="container mx-auto px-4">
-        <p class="uppercase font-bold">Your promo code:</p>
-        <p
-          class="uppercase border-solid font-bold border-2 border-rose-600 py-6 text-4xl rounded-lg"
-        >
-          Giftcode
-        </p>
-        <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
-        <p class="text-xs">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ab
-          quaerat aliquid inventore modi accusamus dolorum aperiam, culpa, nam
-          obcaecati dolores reprehenderit quisquam maxime delectus, maiores et
-          reiciendis quam deserunt!
-        </p>
-        <div class="font-bold">
-          <span>
-            <a
-              href="tel:123-456-7890"
-              class="transition-colors hover:text-rose-300"
-              >(123) 456-7890</a
-            >
-            |
-            <a
-              href="mailto:fake@example.com"
-              class="transition-colors hover:text-rose-300"
-              >fake@example.com</a
-            >
-          </span>
-          <br />
-          <a
-            href="#"
-            class="uppercase text-rose-300 transition-colors hover:text-gray-50"
-            >fakewebsite.com</a
+        <!-- Gift code section -->
+        <div>
+          <p class="uppercase font-bold">Your promo code:</p>
+          <p
+            class="uppercase border-solid font-bold border-2 border-rose-600 py-6 text-4xl rounded-lg"
           >
+            Giftcode
+          </p>
+        </div>
+
+        <!-- Information section -->
+        <div>
+          <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
+          <p class="text-xs">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ab
+            quaerat aliquid inventore modi accusamus dolorum aperiam, culpa, nam
+            obcaecati dolores reprehenderit quisquam maxime delectus, maiores et
+            reiciendis quam deserunt!
+          </p>
+          <div class="font-bold">
+            <span>
+              <a
+                href="tel:123-456-7890"
+                class="transition-colors hover:text-rose-300"
+                >(123) 456-7890</a
+              >
+              |
+              <a
+                href="mailto:fake@example.com"
+                class="transition-colors hover:text-rose-300"
+                >fake@example.com</a
+              >
+            </span>
+            <br />
+            <a
+              href="#"
+              class="uppercase text-rose-300 transition-colors hover:text-gray-50"
+              >fakewebsite.com</a
+            >
+          </div>
         </div>
       </div>
     </div>
