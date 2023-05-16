@@ -26,11 +26,24 @@
         </p>
         <div class="font-bold">
           <span>
-            <a href="tel:123-456-7890">(123) 456-7890</a> |
-            <a href="mailto:fake@example.com">fake@example.com</a>
+            <a
+              href="tel:123-456-7890"
+              class="transition-colors hover:text-rose-300"
+              >(123) 456-7890</a
+            >
+            |
+            <a
+              href="mailto:fake@example.com"
+              class="transition-colors hover:text-rose-300"
+              >fake@example.com</a
+            >
           </span>
           <br />
-          <a href="#" class="uppercase text-rose-300">fakewebsite.com</a>
+          <a
+            href="#"
+            class="uppercase text-rose-300 transition-colors hover:text-gray-50"
+            >fakewebsite.com</a
+          >
         </div>
       </div>
     </div>
