@@ -1,0 +1,14 @@
+#+TITLE: Coupon Wallet
+
+* TABLE OF CONTENTS :TOC:
+  - [[#about][About]]
+  - [[#tech-stack][Tech Stack]]
+
+** About
+This frontend application is a technical evaluation from TapOnIt, which displays
+a list of coupons in an appealing way that can be redeemed by users. Each coupon
+can only be redeemed once. This application is currently in development
+
+** Tech Stack
++ Nuxt
++ Tailwind
