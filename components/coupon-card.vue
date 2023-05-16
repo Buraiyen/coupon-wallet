@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="bg-rose-900 col-span-2 text-center">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4 py-2">
         <!-- Gift code section -->
         <div>
           <p class="uppercase font-bold">Your promo code:</p>
