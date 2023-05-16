@@ -22,7 +22,7 @@
         </div>
 
         <!-- Information section -->
-        <div>
+        <div class="mt-4">
           <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
           <p class="text-xs">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ab
@@ -30,7 +30,7 @@
             obcaecati dolores reprehenderit quisquam maxime delectus, maiores et
             reiciendis quam deserunt!
           </p>
-          <div class="font-bold">
+          <div class="font-bold mt-4">
             <span>
               <a
                 href="tel:123-456-7890"
