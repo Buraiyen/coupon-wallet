@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[600px] h-48 text-white border-2 border-solid rounded border-red-500 grid grid-cols-3"
+    class="w-[750px] text-white border-2 border-solid rounded border-red-500 grid grid-cols-3"
   >
     <div class="bg-rose-400 flex items-center justify-center col-span-1">
       <h3 class="text-7xl">30</h3>
@@ -17,6 +17,21 @@
         >
           Giftcode
         </p>
+        <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
+        <p class="text-xs">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ab
+          quaerat aliquid inventore modi accusamus dolorum aperiam, culpa, nam
+          obcaecati dolores reprehenderit quisquam maxime delectus, maiores et
+          reiciendis quam deserunt!
+        </p>
+        <div class="font-bold">
+          <span>
+            <a href="tel:123-456-7890">(123) 456-7890</a> |
+            <a href="mailto:fake@example.com">fake@example.com</a>
+          </span>
+          <br />
+          <a href="#" class="uppercase text-rose-300">fakewebsite.com</a>
+        </div>
       </div>
     </div>
   </div>
