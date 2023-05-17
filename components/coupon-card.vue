@@ -23,7 +23,7 @@
           <button
             class="text-rose-800 bg-gray-100 rounded-md border-rose-300 border-solid border-2 py-2 px-6 transition-colors hover:bg-rose-200 disabled:bg-gray-400 disabled:text-gray-600 disabled:border-gray-500"
             @click="redeem"
-            :disabled="isRedeemed || sessionStorage[key] === 'true'"
+            :disabled="isRedeemed"
           >
             Redeem
           </button>
@@ -62,20 +62,20 @@
 <script>
 export default {
   props: {
-    id: {
+    couponId: {
       type: String,
       required: true,
     },
   },
   data() {
     return {
-      isRedeemed: sessionStorage[this.id] === 'true',
+      isRedeemed: sessionStorage[this.couponId] === 'true',
     };
   },
   methods: {
     redeem() {
       this.isRedeemed = true;
-      sessionStorage.setItem(this.id, 'true');
+      sessionStorage.setItem(this.couponId, 'true');
     },
   },
 };
