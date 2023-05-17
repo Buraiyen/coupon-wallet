@@ -1,15 +1,15 @@
 <template>
-  <div class="w-[750px] text-white rounded-lg border-rose-200 grid grid-cols-3">
+  <div class="w-[450px] text-white rounded-lg border-rose-200 grid grid-cols-3">
     <div
       class="bg-rose-400 flex items-center justify-center col-span-1 rounded-tl-lg rounded-bl-lg"
     >
       <div>
-        <font-awesome-icon :icon="['fas', 'gift']" size="2xl" />
+        <font-awesome-icon :icon="['fas', 'gift']" size="xl" />
       </div>
-      <h3 class="text-7xl">30</h3>
+      <h3 class="text-4xl">30</h3>
       <div class="grid grid-rows-2">
-        <p class="text-5xl">%</p>
-        <p class="text-3xl">OFF</p>
+        <p class="text-2xl">%</p>
+        <p class="text-xl">OFF</p>
       </div>
     </div>
     <div class="bg-rose-900 col-span-2 text-center rounded-tr-lg rounded-br-lg">
@@ -18,7 +18,7 @@
         <div>
           <p class="uppercase font-bold">Your promo code:</p>
           <p
-            class="uppercase border-solid font-bold border-2 border-rose-600 py-6 text-4xl rounded-lg"
+            class="uppercase border-solid font-bold border-2 border-rose-600 py-3 text-2xl rounded-lg text-rose-200"
           >
             Giftcode
           </p>
@@ -27,12 +27,6 @@
         <!-- Information section -->
         <div class="mt-4">
           <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
-          <p class="text-xs">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ab
-            quaerat aliquid inventore modi accusamus dolorum aperiam, culpa, nam
-            obcaecati dolores reprehenderit quisquam maxime delectus, maiores et
-            reiciendis quam deserunt!
-          </p>
           <div class="font-bold mt-4">
             <span>
               <a
@@ -40,7 +34,7 @@
                 class="transition-colors hover:text-rose-300"
                 >(123) 456-7890</a
               >
-              |
+              <br />
               <a
                 href="mailto:fake@example.com"
                 class="transition-colors hover:text-rose-300"
