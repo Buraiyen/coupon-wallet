@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[30%] max-lg:w-[50%] text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3"
+    class="w-[38%] max-lg:w-[50%] text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3"
   >
     <div
       class="bg-rose-400 flex items-center justify-center col-span-1 max-lg:rounded-tl-lg max-lg:rounded-tr-lg lg:rounded-bl-lg lg:rounded-tl-lg"
@@ -20,12 +20,11 @@
       <div class="container mx-auto px-4 py-2">
         <!-- Gift code section -->
         <div>
-          <p class="uppercase font-bold">Your promo code:</p>
-          <p
-            class="uppercase border-solid font-bold border-2 border-rose-600 py-3 text-2xl rounded-lg text-rose-200"
+          <button
+            class="text-rose-800 bg-gray-100 rounded-md border-rose-300 border-solid border-2 py-2 px-6 transition-colors hover:bg-rose-200"
           >
-            Giftcode
-          </p>
+            Redeem
+          </button>
         </div>
 
         <!-- Information section -->
