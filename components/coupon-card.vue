@@ -21,7 +21,9 @@
         <!-- Gift code section -->
         <div>
           <button
-            class="text-rose-800 bg-gray-100 rounded-md border-rose-300 border-solid border-2 py-2 px-6 transition-colors hover:bg-rose-200"
+            class="text-rose-800 bg-gray-100 rounded-md border-rose-300 border-solid border-2 py-2 px-6 transition-colors hover:bg-rose-200 disabled:bg-gray-400 disabled:text-gray-600 disabled:border-gray-500"
+            @click="redeem"
+            :disabled="isRedeemed"
           >
             Redeem
           </button>
@@ -58,7 +60,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      isRedeemed: false,
+    };
+  },
+  methods: {
+    redeem() {
+      this.isRedeemed = true;
+    },
+  },
+};
 </script>
 
 <style></style>
