@@ -15,7 +15,7 @@
       </div>
     </div>
     <div
-      class="bg-rose-900 col-span-2 text-center lg:rounded-tr-lg lg:rounded-br-lg"
+      class="bg-rose-900 col-span-2 text-center max-lg:rounded-bl-lg max-lg:rounded-br-lg lg:rounded-tr-lg lg:rounded-br-lg"
     >
       <div class="container mx-auto px-4 py-2">
         <!-- Gift code section -->
