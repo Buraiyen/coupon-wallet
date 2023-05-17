@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[33%] max-lg:w-[50%] text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 ml-10 mt-2"
+    class="w-[40%] max-lg:w-[50%] text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 ml-10 mt-2"
   >
     <div
       class="bg-rose-400 flex items-center justify-center col-span-1 max-lg:rounded-tl-lg max-lg:rounded-tr-lg lg:rounded-bl-lg lg:rounded-tl-lg"
@@ -8,9 +8,9 @@
       <div>
         <font-awesome-icon :icon="['fas', 'gift']" size="xl" />
       </div>
-      <h3 class="text-4xl">30</h3>
+      <h3 class="text-6xl">30</h3>
       <div class="grid grid-rows-2">
-        <p class="text-2xl">%</p>
+        <p class="text-3xl">%</p>
         <p class="text-xl">OFF</p>
       </div>
     </div>
