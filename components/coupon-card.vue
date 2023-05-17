@@ -1,7 +1,9 @@
 <template>
-  <div class="w-[450px] text-white rounded-lg border-rose-200 grid grid-cols-3">
+  <div
+    class="w-[450px] text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 ml-10 mt-2"
+  >
     <div
-      class="bg-rose-400 flex items-center justify-center col-span-1 rounded-tl-lg rounded-bl-lg"
+      class="bg-rose-400 flex items-center justify-center col-span-1 max-lg:rounded-tl-lg max-lg:rounded-tr-lg lg:rounded-bl-lg lg:rounded-tl-lg"
     >
       <div>
         <font-awesome-icon :icon="['fas', 'gift']" size="xl" />
@@ -12,7 +14,9 @@
         <p class="text-xl">OFF</p>
       </div>
     </div>
-    <div class="bg-rose-900 col-span-2 text-center rounded-tr-lg rounded-br-lg">
+    <div
+      class="bg-rose-900 col-span-2 text-center lg:rounded-tr-lg lg:rounded-br-lg"
+    >
       <div class="container mx-auto px-4 py-2">
         <!-- Gift code section -->
         <div>
