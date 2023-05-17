@@ -1,16 +1,18 @@
 <template>
-  <div
-    class="w-[750px] text-white border-2 border-solid rounded border-red-500 grid grid-cols-3"
-  >
-    <div class="bg-rose-400 flex items-center justify-center col-span-1">
-      <font-awesome-icon :icon="['fas', 'gift']" size="2xl" />
+  <div class="w-[750px] text-white rounded-lg border-rose-200 grid grid-cols-3">
+    <div
+      class="bg-rose-400 flex items-center justify-center col-span-1 rounded-tl-lg rounded-bl-lg"
+    >
+      <div>
+        <font-awesome-icon :icon="['fas', 'gift']" size="2xl" />
+      </div>
       <h3 class="text-7xl">30</h3>
       <div class="grid grid-rows-2">
         <p class="text-5xl">%</p>
         <p class="text-3xl">OFF</p>
       </div>
     </div>
-    <div class="bg-rose-900 col-span-2 text-center">
+    <div class="bg-rose-900 col-span-2 text-center rounded-tr-lg rounded-br-lg">
       <div class="container mx-auto px-4 py-2">
         <!-- Gift code section -->
         <div>
