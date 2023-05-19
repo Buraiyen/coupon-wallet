@@ -5,9 +5,7 @@
     <div
       class="bg-rose-400 flex items-center justify-center col-span-1 max-lg:rounded-tl-lg max-lg:rounded-tr-lg lg:rounded-bl-lg lg:rounded-tl-lg"
     >
-      <div>
-        <font-awesome-icon :icon="['fas', 'gift']" size="xl" />
-      </div>
+      <font-awesome-icon :icon="['fas', 'gift']" size="xl" />
       <h3 class="text-6xl">{{ deal }}</h3>
       <div class="grid grid-rows-2">
         <p class="text-3xl">%</p>
