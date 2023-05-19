@@ -2,6 +2,7 @@
   <div
     class="text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3"
   >
+    <!-- "% off" section -->
     <div
       :class="[
         {
@@ -26,6 +27,8 @@
         <p class="text-xl">OFF</p>
       </div>
     </div>
+
+    <!-- Gift code section -->
     <div
       :class="[
         {
@@ -42,7 +45,6 @@
       ]"
     >
       <div class="container mx-auto px-4 py-2">
-        <!-- Gift code section -->
         <div>
           <button
             :class="[
@@ -75,6 +77,8 @@
         <!-- Information section -->
         <div class="mt-4">
           <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
+
+          <!-- Phone -->
           <div class="font-bold mt-4">
             <span>
               <a
@@ -90,6 +94,8 @@
                 >(123) 456-7890</a
               >
               <br />
+
+              <!-- Email -->
               <a
                 href="mailto:fake@example.com"
                 :class="[
@@ -104,6 +110,8 @@
               >
             </span>
             <br />
+
+            <!-- Website -->
             <a
               href="#"
               :class="[
