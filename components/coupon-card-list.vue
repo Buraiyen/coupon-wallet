@@ -4,6 +4,7 @@
       v-for="couponCard in couponCards"
       :key="couponCard.couponId"
       :couponId="couponCard.couponId"
+      :deal="couponCard.deal"
     />
   </section>
 </template>
@@ -15,9 +16,9 @@ export default {
   data() {
     return {
       couponCards: [
-        { couponId: 'coupon1' },
-        { couponId: 'coupon2' },
-        { couponId: 'coupon3' },
+        { couponId: 'coupon1', deal: 50 },
+        { couponId: 'coupon2', deal: 25 },
+        { couponId: 'coupon3', deal: 100 },
       ],
     };
   },

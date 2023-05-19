@@ -8,7 +8,7 @@
       <div>
         <font-awesome-icon :icon="['fas', 'gift']" size="xl" />
       </div>
-      <h3 class="text-6xl">30</h3>
+      <h3 class="text-6xl">{{ deal }}</h3>
       <div class="grid grid-rows-2">
         <p class="text-3xl">%</p>
         <p class="text-xl">OFF</p>
@@ -64,6 +64,10 @@ export default {
   props: {
     couponId: {
       type: String,
+      required: true,
+    },
+    deal: {
+      type: Number,
       required: true,
     },
   },
