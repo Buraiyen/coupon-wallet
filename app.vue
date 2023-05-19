@@ -1,5 +1,5 @@
 <template>
   <div>
-    <coupon-card couponId="coupon1" />
+    <coupon-card-list />
   </div>
 </template>
