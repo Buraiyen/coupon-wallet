@@ -5,6 +5,7 @@
       :key="couponCard.couponId"
       :couponId="couponCard.couponId"
       :deal="couponCard.deal"
+      :colorTheme="couponCard.colorTheme"
     />
   </section>
 </template>
@@ -16,9 +17,9 @@ export default {
   data() {
     return {
       couponCards: [
-        { couponId: 'coupon1', deal: 50 },
-        { couponId: 'coupon2', deal: 25 },
-        { couponId: 'coupon3', deal: 100 },
+        { couponId: 'coupon1', deal: 50, colorTheme: 'rose' },
+        { couponId: 'coupon2', deal: 25, colorTheme: 'sky' },
+        { couponId: 'coupon3', deal: 100, colorTheme: 'amber' },
       ],
     };
   },
