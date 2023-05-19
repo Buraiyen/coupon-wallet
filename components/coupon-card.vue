@@ -2,13 +2,6 @@
   <div
     class="text-white rounded-lg border-rose-200 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3"
   >
-    <!-- <div
-      :class="`${{
-        'bg-rose-400': colorTheme === 'rose',
-        'bg-sky-400': colorTheme === 'sky',
-        'bg-rose-400': colorTheme === 'rose',
-      }} flex items-center justify-center col-span-1 max-lg:rounded-tl-lg max-lg:rounded-tr-lg lg:rounded-bl-lg lg:rounded-tl-lg`"
-    > -->
     <div
       :class="[
         {
@@ -51,12 +44,6 @@
       <div class="container mx-auto px-4 py-2">
         <!-- Gift code section -->
         <div>
-          <!-- <button
-            class="text-rose-800 bg-gray-100 rounded-md border-rose-300 border-solid border-2 py-2 w-[33%] transition-colors hover:bg-rose-200 disabled:bg-gray-400 disabled:text-gray-600 disabled:border-gray-500"
-            @click="redeem"
-            :disabled="isRedeemed"
-          > -->
-
           <button
             :class="[
               {
