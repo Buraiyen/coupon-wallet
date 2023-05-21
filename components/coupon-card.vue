@@ -55,22 +55,22 @@
                   colorTheme === 'sky',
                 'text-amber-800 border-amber-300 hover:bg-amber-200':
                   colorTheme === 'amber',
+                'bg-transparent text-gray-100 hover:bg-transparent pointer-events-none':
+                  isRedeemed,
+
+                'bg-gray-50': !isRedeemed,
               },
-              'bg-gray-100',
               'border-solid',
               'py-2',
               'w-[33%]',
               'transition-colors',
               'border-2',
               'rounded-md',
-              'disabled:bg-gray-400',
-              'disabled:text-gray-600',
-              'disabled:border-gray-500',
             ]"
             @click="redeem"
-            :disabled="isRedeemed"
           >
-            Redeem
+            <span v-if="!isRedeemed">Redeem</span>
+            <span v-else>{{ code }}</span>
           </button>
         </div>
 
@@ -148,6 +148,10 @@ export default {
       type: String,
       required: true,
       default: 'rose',
+    },
+    code: {
+      type: String,
+      required: true,
     },
   },
   data() {
