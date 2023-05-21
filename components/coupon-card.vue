@@ -71,10 +71,13 @@
             <span v-if="!isRedeemed">Redeem</span>
             <span v-else class="text-gray-50">{{ code }}</span>
           </button>
+          <p v-show="isCopyMessageActive" class="text-gray-50 h-0">
+            Copied to clipboard!
+          </p>
         </div>
 
         <!-- Information section -->
-        <div class="mt-4">
+        <div class="mt-6">
           <p class="font-bold">Lorem ipsum dolor, sit amet.</p>
 
           <!-- Phone -->
@@ -156,6 +159,7 @@ export default {
   data() {
     return {
       isRedeemed: sessionStorage[this.couponId] === 'true',
+      isCopyMessageActive: false,
     };
   },
   methods: {
@@ -168,6 +172,10 @@ export default {
     },
     copyToClipboard() {
       navigator.clipboard.writeText(this.code);
+      this.isCopyMessageActive = true;
+      setTimeout(() => {
+        this.isCopyMessageActive = false;
+      }, 3000);
     },
   },
 };
