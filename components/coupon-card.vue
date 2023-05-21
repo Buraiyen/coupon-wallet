@@ -55,8 +55,7 @@
                   colorTheme === 'sky',
                 'text-amber-800 border-amber-300 hover:bg-amber-200':
                   colorTheme === 'amber',
-                'bg-transparent text-gray-100 hover:bg-transparent pointer-events-none':
-                  isRedeemed,
+                'bg-transparent text-gray-100 hover:bg-transparent': isRedeemed,
 
                 'bg-gray-50': !isRedeemed,
               },
@@ -70,7 +69,7 @@
             @click="redeem"
           >
             <span v-if="!isRedeemed">Redeem</span>
-            <span v-else>{{ code }}</span>
+            <span v-else class="text-gray-50">{{ code }}</span>
           </button>
         </div>
 
@@ -161,11 +160,15 @@ export default {
   },
   methods: {
     redeem() {
-      this.isRedeemed = true;
-      sessionStorage.setItem(this.couponId, 'true');
+      if (!this.isRedeemed) {
+        this.isRedeemed = true;
+        sessionStorage.setItem(this.couponId, 'true');
+      }
+      this.copyToClipboard();
+    },
+    copyToClipboard() {
+      navigator.clipboard.writeText(this.code);
     },
   },
 };
 </script>
-
-<style></style>
