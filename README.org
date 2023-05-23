@@ -3,6 +3,8 @@
 * TABLE OF CONTENTS :TOC:
   - [[#about][About]]
   - [[#tech-stack][Tech Stack]]
+  - [[#download-and-installation][Download and Installation]]
+  - [[#images][Images]]
 
 ** About
 https://coupon-wallet.pages.dev/
@@ -13,3 +15,19 @@ a list of coupons in a responsive and appealing way. Each coupon can be redeemed
 ** Tech Stack
 + Nuxt
 + Tailwind
+
+** Download and Installation
+#+begin_src sh
+> git clone https://github.com/Buraiyen/coupon-wallet.git
+
+> cd coupon-wallet
+
+> npm i
+
+> npm run dev
+#+end_src
+
+** Images
+[[./readme-img/img1.png]]
+[[./readme-img/img2.png]]
+[[./readme-img/img3.png]]
